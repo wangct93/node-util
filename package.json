@@ -1,6 +1,6 @@
 {
   "name": "wangct-server-util",
-  "version": "1.0.15",
+  "version": "1.0.17",
   "description": "",
   "main": "lib/index.js",
   "files": [
@@ -9,11 +9,12 @@
   "dependencies": {
     "chokidar": "^2.0.4",
     "formidable": "^1.2.1",
-    "wangct-util": "^1.0.20"
+    "wangct-util": "^1.0.24-t1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm pu --registry https://registry.npmjs.org/"
   },
   "author": "",
   "license": "ISC"
