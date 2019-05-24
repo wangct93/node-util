@@ -1,6 +1,6 @@
 {
   "name": "wangct-server-util",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "",
   "main": "lib/index.js",
   "files": [
