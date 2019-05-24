@@ -6,4 +6,5 @@ const fs  = require('fs');
 const path = require('path');
 const util = require('../lib');
 
-console.log(util.isExist('lib/index.js'))
+
+console.log(process.argv);
