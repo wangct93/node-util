@@ -1,14 +1,16 @@
 {
   "name": "wangct-server-util",
-  "version": "1.0.20",
+  "version": "1.0.23",
   "description": "",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "chokidar": "^2.0.4",
     "formidable": "^1.2.1",
+    "request": "^2.88.0",
     "wangct-util": "^1.0.25"
   },
   "devDependencies": {},

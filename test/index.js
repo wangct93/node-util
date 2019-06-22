@@ -7,4 +7,6 @@ const path = require('path');
 const util = require('../lib');
 
 
-console.log(process.argv);
+util.getOuterNetIp().then(d => {
+  console.log(d);
+});
