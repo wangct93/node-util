@@ -7,11 +7,15 @@
     "lib"
   ],
   "dependencies": {
+    "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.3",
     "chokidar": "^2.0.4",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
     "formidable": "^1.2.1",
     "request": "^2.88.0",
-    "wangct-util": "^1.0.25"
+    "wangct-util": "^1.0.27"
   },
   "devDependencies": {},
   "scripts": {
