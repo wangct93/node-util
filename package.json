@@ -1,6 +1,6 @@
 {
   "name": "wangct-server-util",
-  "version": "1.0.26",
+  "version": "1.0.28",
   "description": "",
   "main": "lib/index.js",
   "files": [
@@ -15,7 +15,7 @@
     "express-session": "^1.16.2",
     "formidable": "^1.2.1",
     "request": "^2.88.0",
-    "wangct-util": "^1.0.29"
+    "wangct-util": "^1.0.30"
   },
   "devDependencies": {},
   "scripts": {
