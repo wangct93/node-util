@@ -1,6 +1,6 @@
 {
   "name": "wangct-server-util",
-  "version": "1.0.36",
+  "version": "1.0.37",
   "description": "",
   "main": "lib/index.js",
   "files": [
@@ -11,6 +11,7 @@
     "cheerio": "^1.0.0-rc.3",
     "chokidar": "^2.0.4",
     "cookie-parser": "^1.4.4",
+    "cross-spawn": "^6.0.5",
     "express": "^4.17.1",
     "express-session": "^1.16.2",
     "formidable": "^1.2.1",
