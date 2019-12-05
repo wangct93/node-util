@@ -4,4 +4,7 @@
 
 const util = require('../lib');
 
-util.deleteFile(util.resolve('test/a'));
+
+util.createServer({
+  port:2234
+});
