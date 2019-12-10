@@ -5,6 +5,4 @@
 const util = require('../lib');
 
 
-util.createServer({
-  port:2234
-});
+util.log('wangct')
