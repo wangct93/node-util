@@ -5,4 +5,7 @@
 const util = require('../lib');
 
 
-util.log('wangct')
+
+util.watch('test',() => {
+  console.log(12311);
+})
