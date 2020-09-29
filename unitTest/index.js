@@ -25,8 +25,6 @@ function startTest(mapData){
       }else{
         console.log('测试成功：',name);
       }
-    }).catch(e => {
-      console.log(name,'测试失败，错误：',e);
-    });
+    })
   });
 }
