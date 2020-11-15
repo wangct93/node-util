@@ -25,7 +25,8 @@
     "test": "node test",
     "publish": "npm pu --registry https://registry.npmjs.org/ --access public",
     "login": "npm login --registry https://registry.npmjs.org/",
-    "unitTest": "node unitTest"
+    "unitTest": "node unitTest",
+    "readline": "node test/readline.js"
   },
   "author": "",
   "license": "ISC"
