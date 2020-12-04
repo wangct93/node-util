@@ -1,9 +1,21 @@
+
+start();
+
 /**
- * spawn的promise封装
- * @param cmd
- * @param args
- * @param options
- * @returns {Promise<any>}
+ * 开始发布
+ * @author wangchuitong
+ */
+async function start(){
+  await spawn('npm',['run','pu-cmd']).then(() => {
+    console.log('发布成功');
+  }).catch((code) => {
+    console.log('发布失败，错误码：',code);
+  });
+}
+
+/**
+ * 执行命令
+ * @author wangchuitong
  */
 function spawn(cmd,args,options = {}){
   return new Promise((cb,eb) => {
@@ -20,6 +32,3 @@ function spawn(cmd,args,options = {}){
     });
   });
 }
-
-
-module.exports = spawn;

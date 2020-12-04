@@ -22,9 +22,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node test",
-    "publish": "npm pu --registry https://registry.npmjs.org/ --access public",
+    "pu": "node scripts/publish",
+    "pu-cmd": "npm pu --registry https://registry.npmjs.org/ --access public",
     "login": "npm login --registry https://registry.npmjs.org/",
+    "test": "node test",
     "unitTest": "node unitTest",
     "readline": "node test/readline.js"
   },

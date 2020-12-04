@@ -4,5 +4,6 @@ const {eachFile} = require("../lib/file");
 
 const {Server} = require('../lib');
 
-
-deleteFile('temp/ad');
+new Server({
+  port:9555,
+});
