@@ -7,6 +7,6 @@ start();
  * @returns {Promise<void>}
  */
 async function start(){
-  await spawn('npm',['run','commit']);
-  await spawn('git',['push','origin','master']);
+  await spawn('git',['add','.']);
+  await spawn('git',['commit','-m','脚本提交']);
 }
