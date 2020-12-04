@@ -27,6 +27,7 @@
     "login": "npm login --registry https://registry.npmjs.org/",
     "test": "node test",
     "unitTest": "node unitTest",
+    "push": "node scripts/push",
     "readline": "node test/readline.js"
   },
   "author": "",
