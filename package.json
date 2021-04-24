@@ -1,6 +1,6 @@
 {
   "name": "@wangct/node-util",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "node工具库",
   "main": "lib/index.js",
   "files": [
