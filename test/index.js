@@ -1,9 +1,7 @@
-const {deleteFile} = require("../lib/file");
-const {eachFile} = require("../lib/file");
+const {getLogger} = require('../lib/log');
 
+const log = getLogger();
 
-const {Server} = require('../lib');
+log.level = 'info';
 
-new Server({
-  port:9555,
-});
+log.info(123);
